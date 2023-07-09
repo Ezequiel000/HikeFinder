@@ -1,0 +1,16 @@
+{
+  "name": "leaflet-map",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/leaflet-map/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/leaflet/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
