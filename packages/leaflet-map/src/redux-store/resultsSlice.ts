@@ -16,6 +16,7 @@ export interface YelpResult {
   rating: number;
   review_count: number;
   image_url: string;
+  id: string;
 }
 export const fetchYelpResults = createAsyncThunk(
   'results/fetchYelpResults',

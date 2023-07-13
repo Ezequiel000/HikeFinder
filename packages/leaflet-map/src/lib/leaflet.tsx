@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { init } from './init';
 import { Map } from 'leaflet';
-
 import { useAppDispatch } from '../redux-store/hooks';
 import { fetchYelpResults } from '../redux-store/resultsSlice'; // <-- import your thunk
 

@@ -2,7 +2,7 @@ import YelpResults from './YelpResults';
 
 export function TrailList() {
   return (
-    <div className="w-screen h-64 bg-stone-200 z-30 rounded-md bottom-0 absolute drop-shadow-2xl  ">
+    <div className="md:w-1/2 w-full h-2/3 overflow-hidden">
       <YelpResults />
     </div>
   );

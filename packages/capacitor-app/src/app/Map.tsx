@@ -4,9 +4,8 @@ import { TrailList } from '@hiking-app/ui';
 
 export function Map() {
   return (
-    <div className="w-full h-full flex">
+    <div className="box-border h-screen relative">
       <LeafletMap />
-      <TrailList />
     </div>
   );
 }
