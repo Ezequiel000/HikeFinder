@@ -1,11 +1,14 @@
 import L from "leaflet"
 import { vectorBasemapLayer } from "esri-leaflet-vector"
 
+
 export const init = (element: HTMLDivElement) => {
+
     const map = L.map(element, {
         minZoom: 2
       })
       map.setView([34.02, -118.805], 13);
+    
 
       const apiKey = "AAPK4623534d398c44ac868dc977ca0460cdHwFguD2jZHfSRhYk_UyJ0GbqN91NWPMtcT1eY4gSY6XrXXNf-8voS4HRJChOje7L";
 
@@ -14,6 +17,7 @@ export const init = (element: HTMLDivElement) => {
       const layer = vectorBasemapLayer(basemapEnum, {
         apiKey: apiKey
       })
+
 
       map.addLayer(layer)
 

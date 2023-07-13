@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@hiking-app/leaflet-map": ["packages/leaflet-map/src/index.ts"]
+      "@hiking-app/leaflet-map": ["packages/leaflet-map/src/index.ts"],
+      "@hiking-app/ui": ["packages/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
